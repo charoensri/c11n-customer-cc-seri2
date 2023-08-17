@@ -1,0 +1,23 @@
+{
+  "name": "Customorg2_Extensions_myCase1",
+  "label": "myCaseOne",
+  "description": "Seri try Widget Case",
+  "organization": "Customorg2",
+  "version": "1.0.0",
+  "library": "Extensions",
+  "allowedApplications": [],
+  "componentKey": "Customorg2_Extensions_myCase1",
+  "type": "Widget",
+  "subtype": "CASE",
+  "icon": "OneColumnPage.svg",
+  "properties": [
+   {
+      "name": "label",
+      "label": "Label value",
+      "format": "TEXT"
+    }
+  ],
+  "defaultConfig": {
+     "label": "@L $this.label"
+  }
+}
